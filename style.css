@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(250, 186, 7);
+    background-image: url(image/sss.jpg);
+}
+
+ul {
+    list-style: none;
+    padding: none;
+}
+.container {
+    width: 700px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.header {
+    padding: 35px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.header a {
+    text-decoration-line: none;
+    color: rgb(31, 139, 246);
+}
+
+.header a:hover {
+    color: rgb(15, 15, 1);
+    background-color: rgb(254, 241, 0);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.banner {
+    height: 200px;
+    background-image: url(image/logo.jpg);
+    background-position: 0px -450px;
+    border-top: 5px solid rgb(166, 252, 7);
+    border-bottom: 5px solid rgb(205, 255, 6);
+}
+
+.isi{
+    padding: 35px;
+    border-bottom: 5px solid rgb(205, 255, 6) ;
+}
+
+.isi .penulis {
+    margin-top: -15px;
+    font-size: 12pt;
+}
+
+.isi .dito {
+    color: rgb(15, 15, 1);
+    background-color: rgb(254, 241, 0);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    height: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+}
+
+.footer .copy {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.isi ul li {
+    display: inline-block;
+    text-indent: 101px;
+    margin-top: 25px;
+    text-decoration-line: none;
+}
